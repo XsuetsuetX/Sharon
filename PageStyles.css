@@ -1,0 +1,85 @@
+@media only screen and (min-width: 600px) {
+    html {
+      zoom: 90%;
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    html {
+      zoom: 120%;        
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    html {
+      zoom: 150%;
+    }
+  }
+
+         /*background pic*/
+body{
+    background-image: url("season.jpeg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 120%;
+}
+
+ /*Title*/
+h1{
+    color:#558690;
+    font-weight:bold;
+
+}
+
+p{ font-size:18px;
+    color:#03084c;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.imageBox{
+    margin-left: 20px;
+    width:800px;
+    height:200px
+}
+
+.imageBox img{
+  width: 250px;
+  height: 250px;
+}
+
+/* The !!Press me!! button*/
+#myButton{
+    font-size: 17px;
+    border-radius: 25% 10%;
+    margin-top: 55px;
+    margin-left: 20px;
+
+}
+
+/* The search for today's weather button*/
+#yourButton{
+    font-size: 12pt;
+    margin-top: 25px;
+    margin-right: 20px;
+    top:0;
+    right:0;
+    position:absolute;
+    padding: 4px;
+    border-radius: 5px;
+    background-color:#558690;
+}
+#yourButton:hover{
+    background-color: rgb(185, 200, 189);
+}
+
+
+.button_container button{
+   margin-top: 0.4px;
+    margin-right: 50px;
+    border-radius: 70px;
+}
+.button_container :hover{
+    background: rgb(208, 181, 215);
+}
+
+ 
